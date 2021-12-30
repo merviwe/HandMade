@@ -147,6 +147,7 @@ class _LoginScreenState extends State<LoginScreen> {
     );
   }
 
+  /*
   Widget _buildSignInWithText() {
     return Column(
       children: <Widget>[
@@ -157,14 +158,18 @@ class _LoginScreenState extends State<LoginScreen> {
             fontWeight: FontWeight.w400,
           ),
         ),
+
         SizedBox(height: 20.0),
         Text(
           'Sign in with',
           style: kLabelStyle,
         ),
+
       ],
     );
   }
+  */
+
 
   Widget _buildSocialBtn(Function onTap, AssetImage logo) {
     return GestureDetector(
@@ -190,6 +195,7 @@ class _LoginScreenState extends State<LoginScreen> {
     );
   }
 
+  /*
   Widget _buildSocialBtnRow() {
     return Padding(
       padding: EdgeInsets.symmetric(vertical: 30.0),
@@ -212,6 +218,7 @@ class _LoginScreenState extends State<LoginScreen> {
       ),
     );
   }
+  */
 
   Widget _buildSignupBtn() {
     return GestureDetector(
@@ -296,8 +303,8 @@ class _LoginScreenState extends State<LoginScreen> {
                       _buildForgotPasswordBtn(),
                       _buildRememberMeCheckbox(),
                       _buildLoginBtn(),
-                      _buildSignInWithText(),
-                      _buildSocialBtnRow(),
+                      //_buildSignInWithText(),
+                      //_buildSocialBtnRow(),
                       _buildSignupBtn(),
                     ],
                   ),
